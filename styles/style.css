@@ -58,7 +58,7 @@ header nav ul li::after {
 }
 
 header nav ul li:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
 header nav ul li a {
@@ -128,7 +128,7 @@ header nav ul li .fa-cart-shopping {
 .brand-hr-line {
   border: none;
   height: 1px;
-  background: linear-gradient(to right, transparent, #C0CCDA, transparent);
+  background: linear-gradient(to right, transparent, #c0ccda, transparent);
   margin: 0 120px;
 }
 
@@ -142,107 +142,108 @@ header nav ul li .fa-cart-shopping {
 
 /* !popular section style starts here! */
 .popular-section {
-    width: 1070px;
-    margin: 100px auto;
-    position: relative;
+  width: 1070px;
+  margin: 100px auto;
+  position: relative;
 }
 
 .popular-heading h1 {
-    font-size: 28px;
-    font-weight: 600;
-    margin-bottom: 35px;
-    text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  text-align: center;
 }
 
 .popular-items {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    /* place-items: center; */
-    gap: 30px;
-    margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  /* place-items: center; */
+  gap: 30px;
+  margin-bottom: 40px;
 }
 
 .popular-items-card {
-    box-shadow: 0 0 40px 0 #00000021;
-    border-radius: 5px;
-    padding: 17px 15px;
+  box-shadow: 0 0 40px 0 #00000021;
+  border-radius: 5px;
+  padding: 17px 15px;
 }
 
 .popular-items-card img {
-    width: 300px;
-    border-radius: 5px;
+  width: 300px;
+  border-radius: 5px;
 }
 
 .popular-items-card .product-heading {
-    font-size: 28px;
-    font-weight: 600;
-    margin: 6px 0;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 6px 0;
 }
 
 .product-price {
-    font-size: 24px;
-    margin-bottom: 6px;
+  font-size: 24px;
+  margin-bottom: 6px;
 }
 
 .product-rating {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
-.star-rating i{
-    color: #FB8200;
-    font-size: 11px;
+.star-rating i {
+  color: #fb8200;
+  font-size: 11px;
 }
 
-.number-rating, .product-description {
-    font-size: 14px;
-    font-weight: 700;
-    color: #787885;
+.number-rating,
+.product-description {
+  font-size: 14px;
+  font-weight: 700;
+  color: #787885;
 }
 
 .popular-see-more {
-    position: absolute;
-    right: 0;
-    font-size: 16px;
-    font-weight: 700;
-    color: #E02C6D;
+  position: absolute;
+  right: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #e02c6d;
 }
 
 .popular-see-more .fa-arrow-right {
-    margin-left: 2px;
+  margin-left: 2px;
 }
 /* !popular section style starts here! */
 
 /* !featur section style starts here! */
 .featur-section {
-    width: 1110px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 96px;
-    padding: 100px 0;
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 96px;
+  padding: 100px 0;
 }
 
 .featur-img img {
-width: 404px;
-border-radius: 7px;
+  width: 404px;
+  border-radius: 7px;
 }
 
 .featur-content h1 {
-    font-size: 38px;
-    font-weight: bold;
+  font-size: 38px;
+  font-weight: bold;
 }
 
 .featur-content p {
-    width: 509px;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 28px;
-    color: #6C6C6C;
-    margin: 16px 0;
+  width: 509px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin: 16px 0;
 }
 
 .featur-content button {
@@ -263,41 +264,150 @@ border-radius: 7px;
 
 /* !footer section style starts here! */
 footer {
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: #000000;
-    text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #000000;
+  text-align: center;
 }
 
 footer h1 {
-    color: #FFFFFF;
-    font-size: 24px;
-    font-weight: bold;
-    padding-top: 50px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 50px;
 }
 
 footer p {
-    color: #D9DBE1;
-    font-size: 14px;
-    font-weight: bold;
-    margin: 3px 0;
+  color: #d9dbe1;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 3px 0;
 }
 
 .social-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 50px;
 }
 
 .social-icon a i {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .social-icon a {
-    text-decoration: none;
-    color: #FFFFFF;
-    margin: 0 2px;
-    padding: 8px;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 2px;
+  padding: 8px;
 }
 /* !footer section style starts here! */
+
+@media screen and (max-width: 576px) {
+  header nav {
+    flex-direction: column;
+    margin: 30px 10px 50px;
+  }
+
+  header nav ul {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .hero-section {
+    margin: 0 40px 70px;
+    flex-direction: column-reverse;
+  }
+
+  .hero-img img {
+    width: 100%;
+  }
+
+  .hero-section .hero-content {
+    text-align: center;
+    width: 350px;
+    margin-top: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+    line-height: 50px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 0 15px;
+    padding: 0 10px;
+  }
+
+  .brand-section {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -40px 15px 0;
+    gap: 30px;
+  }
+
+  .brand-section img {
+    width: 60px;
+  }
+
+  .brand-hr-line {
+    display: none;
+  }
+
+  .popular-section {
+    width: 350px;
+    margin: 50px auto;
+  }
+
+  .popular-items {
+    grid-template-columns: 1fr;
+    margin-bottom: 40px;
+    gap: 30px;
+  }
+
+  .popular-items-card {
+   width: 330px;
+}
+
+  .popular-items-card img {
+    width: 100%;
+}
+
+.featur-section {
+    width: 330px;
+    flex-direction: column-reverse;
+    gap: 96px;
+    text-align: center;
+}
+
+.featur-img {
+    margin-top: -50px;
+}
+
+.featur-img img {
+    width: 100%;
+}
+
+.featur-content h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.featur-content p {
+    width: 330px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #6c6c6c;
+    margin: 16px 0;
+}
+
+}
+
+.hidden {
+  display: none;
+}
